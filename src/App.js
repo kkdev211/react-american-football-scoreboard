@@ -34,6 +34,7 @@ function App() {
   return (
     <div className="container">
       <section className="scoreboard">
+        <div className= "title"> Welcome to the Game!</div>
         <div className="topRow">
           <div className="home">
             <h2 className="home__name">Lions</h2>
@@ -42,7 +43,7 @@ function App() {
 
             <div className="home__score"><span>{scoreLions}</span></div>
           </div>
-          <div className="timer"><span>00:03</span></div>
+          <div className="timer">00:00</div>
           <div className="away">
             <h2 className="away__name">Tigers</h2>
             <div className="away__score"><span>{scoreTigers}</span></div>

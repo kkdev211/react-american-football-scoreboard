@@ -13,7 +13,12 @@
   padding: 5rem;
   border: 4px solid #aaaaaa;
 }
-
+.title{
+  display: flex;
+  justify-content: center;
+  font-family: "Ozone";
+  font-size: 4em;
+}
 .topRow {
   display: flex;
   justify-content: space-around;

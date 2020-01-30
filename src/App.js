@@ -1,11 +1,13 @@
-//TODO: STEP 1 - Import the useState hook.
-import React from "react";
+//TODO: STEP 1 - Import the useState hook.-done
+import React, {useState} from "react";
 import "./App.css";
 import BottomRow from "./BottomRow";
 
 function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
-
+  const initialState = 0;
+  const [scoreLions, setScoreLions] = useState(initialState);
+  const [scoreTigers, setScoreTigers] = useState(initialState);
   return (
     <div className="container">
       <section className="scoreboard">

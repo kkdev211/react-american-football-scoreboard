@@ -6,7 +6,7 @@
 .scoreboard {
   width: 58%;
   margin: 10rem auto;
-  background-color: #0b5402;
+  background-color:purple;
   color: white;
   border-radius: 0.5rem;
   margin-top: 10rem;
@@ -34,11 +34,11 @@
 }
 
 .home {
-  background-color: #656565;
+  background-color: blue;
 }
 
 .away {
-  background-color: #af750a;
+  background-color: rgb(250, 221, 58);
 }
 
 .home__name,
@@ -116,7 +116,9 @@
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal {
+.awayButtons__fieldGoal,
+.downs,
+.yards-to-go {
   margin: 1rem;
   border-radius: 4px;
 }
